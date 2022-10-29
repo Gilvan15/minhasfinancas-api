@@ -1,0 +1,13 @@
+package com.gilvan.minhasfinancas.exception;
+
+public class ErroAutenticacao extends RuntimeException {
+	private static final long serialVersionUID = 1L;
+
+	public ErroAutenticacao(String message) {
+		super(message);
+
+	}
+	
+	
+
+}
