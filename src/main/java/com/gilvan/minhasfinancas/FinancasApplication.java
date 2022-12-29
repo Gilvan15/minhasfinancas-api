@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class FinancasApplication {
-
+	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(FinancasApplication.class, args);
 		System.out.println("Service Up!");
